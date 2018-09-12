@@ -10,6 +10,14 @@
 [Norvig Peter: JScheme](http://www.norvig.com/jscheme-design.html)
 
 
+### Scheme 语言规范（一个子集）
+[CS 61A Scheme Specification 2018](https://cs61a.org/articles/scheme-spec.html)
+
+[CS 61A Scheme Specification 2017](https://inst.eecs.berkeley.edu/~cs61a/sp17/articles/scheme-spec.html)
+
+### 一些scheme interpreter
+[cs61a web版 scheme interpreter](https://scheme.cs61a.org/)
+
 ### 关于 scheme
 [Scheme语言概要1](https://www.ibm.com/developerworks/cn/linux/l-schm/index1.html)
 
