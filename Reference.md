@@ -15,6 +15,8 @@
 
 [CS 61A Scheme Specification 2017](https://inst.eecs.berkeley.edu/~cs61a/sp17/articles/scheme-spec.html)
 
+[Scheme R5RS 规范](https://schemers.org/Documents/Standards/R5RS/HTML/)
+
 ### 一些scheme interpreter
 [cs61a web版 scheme interpreter](https://scheme.cs61a.org/)
 
