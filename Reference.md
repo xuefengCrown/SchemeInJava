@@ -17,6 +17,8 @@
 
 [Scheme R5RS 规范](https://schemers.org/Documents/Standards/R5RS/HTML/)
 
+[Scheme R4RS 规范](https://www.cs.indiana.edu/scheme-repository/R4RS/r4rs_toc.html)
+
 ### 一些scheme interpreter
 [cs61a web版 scheme interpreter](https://scheme.cs61a.org/)
 
