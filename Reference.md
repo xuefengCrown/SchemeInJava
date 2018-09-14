@@ -28,3 +28,6 @@
 [Scheme语言概要2](https://www.ibm.com/developerworks/cn/linux/l-schm/index2.html)
 
 阅读 《SICP》 前两章
+
+### 尾递归优化
+[何幻：尾递归优化](https://thzt.github.io/2015/07/25/proper-tail-recursion/)
