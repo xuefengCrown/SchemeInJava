@@ -23,5 +23,5 @@ dynamically scope procedure
 macro
 
 tail call elimination(消除 tail recursion)
-
+  I do take care to make the interpreter properly tail recursive: calls in the tail position do not grow the stack.
 
