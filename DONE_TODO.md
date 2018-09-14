@@ -22,6 +22,6 @@ dynamically scope procedure
 
 macro
 
-消除 tail recursion
+tail call elimination(消除 tail recursion)
 
 
