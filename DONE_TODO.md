@@ -18,10 +18,10 @@
 7. quote
 
 ## TODO
-dynamically scope procedure
+### dynamically scope procedure
 
-macro
+### macro
 
-tail call elimination(消除 tail recursion)
+### tail call elimination(消除 tail recursion)
   I do take care to make the interpreter properly tail recursive: calls in the tail position do not grow the stack.
 
