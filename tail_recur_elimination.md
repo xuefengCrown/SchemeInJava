@@ -17,8 +17,10 @@ Therefore, it is possible to first free the activation frame of a function about
 parameters for the call, and finally jump to the function’s code.
 This technique is called tail call elimination (or optimisation), abbreviated TCE.
 
-def tailrecsum(x, total=0):
-    if x == 0:
-      return total
-    else:
-      return tailrecsum(x - 1, total + x) ;; 不必新开栈帧，直接在当前栈帧执行!
+    def tailrecsum(x, total=0):
+        if x == 0:
+          return total
+        else:
+          return tailrecsum(x - 1, total + x) ;; 不必新开栈帧，直接在当前栈帧执行!
+
+
