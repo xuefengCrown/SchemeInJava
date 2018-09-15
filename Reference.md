@@ -32,6 +32,8 @@
 ### 尾递归优化
 [CS61A: Tail Recursion and Tail Optimized Calls](http://markmiyashita.com/cs61a/tail_recursion/tail_recursion_and_tail_optimized_calls/)
 
+[Tail call elimination - LAMP](http://lampwww.epfl.ch/teaching/archive/advanced_compiler/2007/resources/slides/act-2007-07-tail-calls.pdf)
+
 [Tail Recursion in Python](https://paulbutler.org/archives/tail-recursion-in-python/)
 
 [何幻：尾递归优化](https://thzt.github.io/2015/07/25/proper-tail-recursion/)
