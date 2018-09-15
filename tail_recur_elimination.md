@@ -24,3 +24,21 @@ This technique is called tail call elimination (or optimisation), abbreviated TC
           return tailrecsum(x - 1, total + x) ;; 不必新开栈帧，直接在当前栈帧执行!
 
 
+## Implementing TCE
+Tail call elimination is implemented by:
+1. identifying tail calls in the program,
+2. compiling those tail calls specially, by deallocating(释放，解除) the activation frame of the caller 
+before jumping to the called function.
+
+We already know how to compile tail calls, but we did not explain yet how to identify them.
+
+### Identifying tail calls
+??????
+
+### TCE in various environments
+When generating assembly language, it is easy to perform TCE, as the target language is sufficiently low-level to
+express the deallocation of the activation frame and the following jump.
+
+When targeting higher-level languages, like C or the JVM, this becomes difficult – although recent VMs like .NET’s
+support tail calls. We explore several techniques that have been developed to perform TCE in such contexts.
+
