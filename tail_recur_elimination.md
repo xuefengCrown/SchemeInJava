@@ -42,3 +42,11 @@ express the deallocation of the activation frame and the following jump.
 When targeting higher-level languages, like C or the JVM, this becomes difficult – although recent VMs like .NET’s
 support tail calls. We explore several techniques that have been developed to perform TCE in such contexts.
 
+### Summary
+Tail call elimination consists in compiling tail calls specially, so that the activation frame of the caller 
+is freed before the called function is invoked.
+
+This technique reduces memory usage and makes it possible to write loops using recursion without overflowing
+the stack.
+
+Tail call elimination can be hard to implement efficiently when the target platform is uncooperative.
