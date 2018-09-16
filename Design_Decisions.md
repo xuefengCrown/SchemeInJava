@@ -12,27 +12,27 @@
 have a class for the primitive procedures, so I could have an R4RS, and an R5RS version some day.(get the modularity)
 
 ### 3. 类结构
-SchemeUtils             ---(the utility methods)
-    Scheme              ---(解释器，包含一个读取代码的输入流管道，一个全局环境，一个read-eval-print-loop循环)
-    Frame               ---(环境)
-    Pair                ---(用于结构化 scheme表达式)
-    InputPort           ---(输入流端口，负责读取scheme代码)
-    Procedure           ---(所有过程的父类)
-       Primitive        ---(基本过程)
-       LambdaProcedure  ---(user-defined-procedure)
-          Macro         ---(宏, 尚未实现)
+        SchemeUtils             ---(the utility methods)
+            Scheme              ---(解释器，包含一个读取代码的输入流管道，一个全局环境，一个read-eval-print-loop循环)
+            Frame               ---(环境)
+            Pair                ---(用于结构化 scheme表达式)
+            InputPort           ---(输入流端口，负责读取scheme代码)
+            Procedure           ---(所有过程的父类)
+               Primitive        ---(基本过程)
+               LambdaProcedure  ---(user-defined-procedure)
+                  Macro         ---(宏, 尚未实现)
 
 ### 4. 解释器组成
 In order to build a Scheme interpreter, you basically need six things:
-   **Read and write** The reader goes in the InputPort class.
+1. **Read and write** The reader goes in the InputPort class.
     
-   **Eval and apply** The eval method goes in the Scheme class.
+2. **Eval and apply** The eval method goes in the Scheme class.
    
-   **Memory management**  Java handles this automatically.
+3. **Memory management**  Java handles this automatically.
 
-   **Run-time stack** I use the Java run-time stack.
+4. **Run-time stack** I use the Java run-time stack.
    
-   **Primitive functions**
+5. **Primitive functions**
    
-   **Primitive data types**
+6. **Primitive data types**
 
