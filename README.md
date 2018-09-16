@@ -4,7 +4,7 @@ A Scheme Interpreter in Java
 **Programming is about ideas, languages are just a way to express them.**
 
 
-## 类设计
+## Design Decisions
 
 ### 1. Lisp 版本(R4RS)
 关于scheme语言规范，参考 [Reference](https://github.com/xuefengCrown/SchemeInJava/blob/master/Reference.md) 的语言规范部分;
