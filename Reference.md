@@ -45,3 +45,4 @@
 
 《The Implementation of Functional Programming Languages》
 
+《Haskell趣学指南》
