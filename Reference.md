@@ -37,3 +37,11 @@
 [Tail Recursion in Python](https://paulbutler.org/archives/tail-recursion-in-python/)
 
 [何幻：尾递归优化](https://thzt.github.io/2015/07/25/proper-tail-recursion/)
+
+### 拓展
+[CS61A: Scheme Interpreter Extensions](https://inst.eecs.berkeley.edu/~cs61a/sp17/proj/scheme/extensions.html#further-extensions)
+
+《Essentials of Programming Languages》
+
+《The Implementation of Functional Programming Languages》
+
